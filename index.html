@@ -2,19 +2,54 @@
 <head>
 <title>Untitled Document</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link href='Primary.css' rel='stylesheet' type='text/css' />
+<link href='style.css' rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/menu.js"></script>
 </head>
 
-<body>
-<div class=mainbody>
-<div class=Layout2_header> </div>
-<div class=Layout2_menu > </div>
- <div class=Layout2_1 >
- <div class=Layout2_section > </div>
- </div>
- <div  class=Layout2_2 ></div> 
+<body >
+<div id="mainbody">
+<div class=header> 
+    <img src="images/logo.jpg">
+</div>
 
+ <div class=left >
+     
+ <div class=section > </div>
+ <div class=section > </div>
  </div>
-
+ <div  class=right >
+     
+<div class=menu > 
+<ul id="nav">
+    <li class="first"><a href="#">Antipasti</a></li>
+    <li><a href="#" class="selected">Primi</a>
+        <ul>
+            <li id="primi_pesce"><a href="#">Pesce</a></li>
+            <li><a href="#">Pasta all'uovo e ripiena</a></li>
+            <li class="last"><a href="#">Pasta secca</a></li>
+             <li class="last"><a href="#">Pasta fredda</a></li>
+             <li class="last"><a href="#">Risotti</a></li>
+             <li class="last"><a href="#">Minestre e zuppe</a></li>
+        </ul>
+        <div class="clear"></div>
+    </li>
+    <li><a href="#">Secondi</a>
+    <ul>
+        <li><a href="#">Carne</a></li>
+        <li><a href="#">Pesce</a></li>
+        <li><a href="#">Uova</a></li>
+        <li class="last"><a href="#">Verdure e legumi</a></li>
+    </ul>        
+        <div class="clear"></div>
+    </li>
+    <li ><a href="#">Contorni</a></li>
+    <li class="last"><a href="#">Dolci</a></li>
+</ul>
+ </div>
+     <div id="content">
+         Contenuto qui
+     </div> 
+</div>
 </body>
 </html>
