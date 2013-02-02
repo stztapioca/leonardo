@@ -5,12 +5,20 @@
 <link href='style.css' rel='stylesheet' type='text/css' />
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/sel_ricette.js"></script>
+
 </head>
 
 <body >
 <div id="mainbody">
 <div class=header> 
-    <img src="images/logo.jpg">
+    <table border="0" cellpadding="0" style="border-collapse: collapse" width="100%" bgcolor="#FFFFFF">
+	<tr>
+		<td width="33%"><p align="center"><img border="0" src="images/logo.jpg" width="269" height="25"></td>
+		<td width="34%">&nbsp;</td>
+		<td width="33%"><p align="center"><img border="0" src="images/lupetto.jpg" width="95" height="100"></td>
+	</tr>
+</table>
 </div>
 
  <div class=left >
@@ -23,18 +31,18 @@
 <div class=menu > 
 <ul id="nav">
     <li class="first"><a href="#">Antipasti</a></li>
-    <li><a href="#" class="selected">Primi</a>
+    <li><a href="#" >Primi</a>
         <ul>
-            <li id="primi_pesce"><a href="#">Pesce</a></li>
+            <li ><a id="primi_pesce" href="#"  >Pesce</a></li>
             <li><a href="#">Pasta all'uovo e ripiena</a></li>
-            <li class="last"><a href="#">Pasta secca</a></li>
-             <li class="last"><a href="#">Pasta fredda</a></li>
-             <li class="last"><a href="#">Risotti</a></li>
+            <li ><a href="#">Pasta secca</a></li>
+             <li ><a href="#">Pasta fredda</a></li>
+             <li ><a href="#">Risotti</a></li>
              <li class="last"><a href="#">Minestre e zuppe</a></li>
         </ul>
         <div class="clear"></div>
     </li>
-    <li><a href="#">Secondi</a>
+    <li><a href="#" >Secondi</a>
     <ul>
         <li><a href="#">Carne</a></li>
         <li><a href="#">Pesce</a></li>
