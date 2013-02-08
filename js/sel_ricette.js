@@ -1,8 +1,9 @@
 $(document).ready(function () {
   
-        $("#primi_pesce").click(function() {
-var parametro = '07_1';
-//alert(parametro);
+        $(".cerca,.first,.last").click(function() {
+//var parametro = '07_1';
+var parametro = $(this).attr("id");
+alert(parametro);
 
 $.ajax({
 type: "POST",
