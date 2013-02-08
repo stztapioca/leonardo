@@ -8,7 +8,7 @@ public function spit_ricette ($dataholder) {
        
     while($row = mysql_fetch_array($dataholder))
         {
-        echo "<div id='titolo_ric' style='border: solid red thin;color: fuchsia;padding:0px;margin:0px' >";
+        echo "<div id='titolo_ric' style='border: solid red thin;color: blue;padding:0px;margin:0px' >";
         echo  "<img src ='images/".$row['pics']."' width='96' height='80'>";
         echo  $row['titolo'];
         echo "<button class='vediric' id='".$row['id']."'>Vedi</button> <br>";
